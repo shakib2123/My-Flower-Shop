@@ -1,0 +1,61 @@
+/* -----------------------
+    common styles
+------------------------- */
+* {
+    margin: 0;
+
+    font-family: 'Roboto';
+}
+
+.btn-primary {
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+    background: #E55473;
+    color: #fff;
+}
+
+/* -------------------------
+    header & banner style
+--------------------------- */
+header {
+    background-color: rgba(229, 84, 115, 0.153);
+    height: 90vh;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px 0;
+}
+
+.banner-info {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    width: 40%;
+
+}
+
+.banner-img {
+    width: 435px;
+    height: 520px;
+    flex-shrink: 0;
+}
