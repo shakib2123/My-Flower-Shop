@@ -19,11 +19,12 @@
 }
 
 /* -------------------------
-    header & banner style
+    header & banner styles
 --------------------------- */
 header {
     background-color: rgba(229, 84, 115, 0.153);
     height: 90vh;
+    margin-bottom: 100px;
 }
 
 .banner-container {
@@ -47,6 +48,7 @@ header {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     margin-bottom: 20px;
+    line-height: 25px;
 }
 
 .banner-image {
@@ -58,4 +60,71 @@ header {
     width: 435px;
     height: 520px;
     flex-shrink: 0;
+}
+
+/* ----------------------------
+    feature section styles
+------------------------- */
+.feature-container {
+    width: 80%;
+    margin: auto;
+}
+
+.feature-info {
+    width: 530px;
+    text-align: center;
+    margin: auto;
+}
+
+.feature-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.feature-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-img-one {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 220px;
+    height: 320px;
+    padding: 40px 40px 0;
+}
+
+.feature-item-name {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.feature-img-tow {
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 220px;
+    height: 320px;
+    padding: 40px 40px 0;
+}
+
+.feature-img-three {
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 220px;
+    height: 320px;
+    padding: 40px 40px 0;
 }
