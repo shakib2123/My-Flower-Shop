@@ -128,3 +128,30 @@ header {
     height: 320px;
     padding: 40px 40px 0;
 }
+
+/* ------------------------------
+    Deal section style
+----------------------------- */
+.deal-container {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 55px 0;
+}
+
+.deal-option {
+    text-align: center;
+}
+
+.deal-name {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: lato;
+    line-height: 30px;
+}
