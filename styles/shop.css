@@ -1,6 +1,6 @@
-/* -----------------------
-    common styles
-------------------------- */
+/* ---------------------------------
+    common styles start from here
+--------------------------------- */
 * {
     margin: 0;
 
@@ -22,9 +22,9 @@
     color: #fff;
 }
 
-/* -------------------------
-    header & banner styles
---------------------------- */
+/* -----------------------------------------
+    header & banner styles start from here
+----------------------------------------- */
 header {
     background-color: rgba(229, 84, 115, 0.153);
     height: 550px;
@@ -66,9 +66,9 @@ header {
     flex-shrink: 0;
 }
 
-/* ----------------------------
-    feature section styles
-------------------------- */
+/* -----------------------------------------
+    feature section styles start form here
+---------------------------------------- */
 .feature-container {
     width: 80%;
     margin: auto;
@@ -133,9 +133,9 @@ header {
     padding: 40px 40px 0;
 }
 
-/* ------------------------------
-    Deal section style
------------------------------ */
+/* -------------------------------------
+    Deal section style start from here
+------------------------------------ */
 .deal-container {
     width: 80%;
     margin: 100px auto;
@@ -159,9 +159,9 @@ header {
     line-height: 30px;
 }
 
-/* -------------------------------
-    Hot deals section style
------------------------------- */
+/* ------------------------------------------
+    Hot deals section style start from here
+------------------------------------------ */
 .hot-deals-container {
     height: 380px;
     background-color: rgba(229, 84, 115, 0.107);
@@ -194,9 +194,9 @@ header {
     width: 300px;
 }
 
-/* ---------------------------------
-    instagram flower styles
------------------------------------ */
+/* -----------------------------------------
+    instagram flower styles start from here
+------------------------------------------ */
 .insta-container {
     width: 80%;
     margin: 100px auto;
@@ -230,9 +230,9 @@ header {
     width: 230px;
 }
 
-/* -------------------------------
-    subscription section start
-------------------------------- */
+/* ---------------------------------------
+    subscription section start from here
+---------------------------------------- */
 .subscription-container {
     width: 80%;
     height: 300px;
@@ -271,9 +271,9 @@ header {
     margin-right: 10px;
 }
 
-/* -----------------------------------
-    unique about section styles
-------------------------------------- */
+/* ----------------------------------------------
+    unique about section styles start from here
+------------------------------------------------ */
 .aobut-container {
     display: flex;
     justify-content: space-between;
@@ -309,6 +309,34 @@ header {
     margin-bottom: 30px;
 }
 
-.more-arrow {
+.learn-more-btn-arrow {
     margin-left: 8px;
+}
+
+/* ----------------------------------
+    footer styles start from here
+---------------------------------- */
+footer {
+    height: 200px;
+    padding: 80px;
+    background-color: #202020;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.web-reservation {
+    color: gray;
 }
