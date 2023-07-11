@@ -4,7 +4,7 @@
 * {
     margin: 0;
 
-    font-family: 'Roboto';
+    font-family: Lato;
 }
 
 .text-primary {
@@ -12,7 +12,7 @@
 }
 
 .btn-primary {
-    padding: 14px 35px;
+    padding: 12px 30px;
     border-radius: 8px;
     font-size: 20px;
     border: 0;
@@ -156,7 +156,6 @@ header {
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
-    font-family: lato;
     line-height: 30px;
 }
 
@@ -180,14 +179,12 @@ header {
 .hot-deal-title {
     color: #272727;
     font-size: 40px;
-    font-family: lato;
     font-weight: 800;
     margin-bottom: 10px;
 }
 
 .hot-deal-description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 15px;
@@ -214,7 +211,6 @@ header {
 
 .insta-title {
     color: #202020;
-    font-family: Lato;
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -232,4 +228,45 @@ header {
 
 .insta-flower-img {
     width: 230px;
+}
+
+/* -------------------------------
+    subscription section start
+------------------------------- */
+.subscription-container {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    background-image: url(../Asset/Rectangle\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subscription-menu {
+    padding: 70px;
+}
+
+.subscription-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #202020;
+}
+
+.subscription-caption {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: block;
+}
+
+.subscription-email {
+    padding: 18px 200px 15px 30px;
+    border: 0;
+    border-radius: 8px;
+    margin-right: 10px;
 }
