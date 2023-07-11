@@ -170,11 +170,11 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 50px 100px;
-    margin-bottom: 100px;
 }
 
 .hot-deal-info {
     width: 50%;
+    text-align: center;
 }
 
 .hot-deal-title {
@@ -189,10 +189,47 @@ header {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 10px;
+    line-height: 25px;
+    margin-bottom: 15px;
 }
 
 .hot-deal-img {
     width: 300px;
+}
+
+/* ---------------------------------
+    instagram flower styles
+----------------------------------- */
+.insta-container {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.insta-flower-info {
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.insta-title {
+    color: #202020;
+    font-family: Lato;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.insta-description {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.insta-flowers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.insta-flower-img {
+    width: 230px;
 }
